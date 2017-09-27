@@ -34,5 +34,4 @@ do
 	name=`echo $f | awk -F. '{print $1}' `
 	echo "[CC log] is handing  $name"
 	echo "<iframe src=\"$f\" width=\"100%\" height=\"100%\"></iframe>" >> "$html"
-	#echo "<img src=\"$f\" />" >> "$html"
 done
